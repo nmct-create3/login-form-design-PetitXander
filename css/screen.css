@@ -490,6 +490,10 @@ a:focus {
     display: block;
 }
 
+.form-field--option{
+    display: inline-flex;
+}
+
 
 
 /*
@@ -498,13 +502,29 @@ a:focus {
     Class to put on all input="text" like form inputs
 */
 
-.c-input {
+input{
     display: block;
 }
 
-.c-input {
 
+
+.c-input {
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-color: #EAEBED;
+    border-width: 1px;
+    border-radius: 3px;
+    font-family: inherit;
+    color: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 11px;
 }
+
+
 
 .c-input:focus {
 }
