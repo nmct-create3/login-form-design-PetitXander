@@ -10,7 +10,7 @@
 
 @font-face{
     font-family: "Inter Web";
-    font-weight: 500;
+    font-weight: 600;
     src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
 }
 
@@ -480,6 +480,43 @@ a:focus {
     Card with box shadow
 */
 
+.c-card{
+    background: white;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #E9EAEE;
+    box-shadow: h-offset v-offset blur spread color;
+    box-shadow: 0 4px 8px 0 gray ;
+}
+
+.c-card__body{
+    padding: 0px 48px 47px 48px;
+
+}
+
+.c-card__title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.c-card__footer{
+    text-align: center;
+    border-top: 1px solid #E2E3E7;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+@media (max-width: 576px) {
+    
+}
+
 /*
     Component: Forms
     ---
@@ -559,7 +596,7 @@ input{
 .c-button {
     font-family: inherit;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     color: #FFFFFF;
     border: inherit;
     background-color: #3385FF;
@@ -578,6 +615,10 @@ input{
 
 .c-button:focus {
     outline: none;
+    border-color: #4F95FF;
+    box-shadow: h-offset v-offset blur spread color;
+    box-shadow: 0 0 0 3px #3385ff4d ;
+
 
 
 }
