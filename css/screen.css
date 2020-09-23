@@ -10,7 +10,7 @@
 
 @font-face{
     font-family: "Inter Web";
-    font-weight: 400;
+    font-weight: 500;
     src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
 }
 
@@ -557,18 +557,33 @@ input{
 */
 
 .c-button {
-
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: inherit;
+    background-color: #3385FF;
+    border-radius: 3px;
+    line-height: 24px;
+    width: 100%;
+    padding: 14px 1px 10px 1px;
 }
 
 .c-button:hover {
+    border-color: #4F95FF;
+    box-shadow: h-offset v-offset blur spread color;
+    box-shadow: 0 0 0 3px #3385ff4d ;
 
 }
 
 .c-button:focus {
+    outline: none;
+
 
 }
 
 .c-button:active {
+    
 
 }
 
