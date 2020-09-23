@@ -448,6 +448,7 @@ a:focus {
 
 .c-logo__symbol{
     height: 100%;
+    display: block;
     
 
 }
@@ -485,11 +486,21 @@ a:focus {
     Everything form related here
 */
 
+.c-form-field {
+    display: block;
+}
+
+
+
 /*
     Component: Input
     ---
     Class to put on all input="text" like form inputs
 */
+
+.c-input {
+    display: block;
+}
 
 .c-input {
 
