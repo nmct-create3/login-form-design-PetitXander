@@ -19,7 +19,9 @@
 \*------------------------------------*/
 
 :root {
-
+    --global-color-alpha-light: #4F95FF;
+    --global-color-alpha: #3385FF;
+    --global-color-alpha-dark: #2E77E6;
 }
 
 /* CSS variables here */
@@ -174,14 +176,18 @@ a {
     transition: all .1s ease-in-out;
 }
 
-a:visited,
+a:visited {    
+    color: var(--global-color-alpha);
+}
+
+a:hover {
+    color: var(--global-color-alpha-light);
+}
 a:active {
     color:#3385FF;
 }
 
-a:hover{
-    color: #4643ff;
-}
+-
 a:focus {
     color: #4643ff;
 }
@@ -510,11 +516,19 @@ a:focus {
     padding-bottom: 24px;
     font-size: 14px;
     line-height: 16px;
+    color: #B1B2BB;
     
 }
 
 @media (max-width: 576px) {
     
+}
+
+.c-forgot{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+
 }
 
 /*
