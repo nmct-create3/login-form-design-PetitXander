@@ -202,6 +202,12 @@ a:focus {
     Creates a horizontal row that stretches the viewport and adds padding around children
 */
 
+.o-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .o-row {
     position: relative;
     padding: 24px 24px 0;
